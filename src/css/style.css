@@ -521,6 +521,10 @@ video {
   height: 14rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
