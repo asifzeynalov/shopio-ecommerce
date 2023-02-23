@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundPosition:{
+        "l33":"-33px"
+      }
+    },
   },
   plugins: [],
 }

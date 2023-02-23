@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-  <header>
-    <div class="top w-[90%] py-5  flex  ">
-        <div class="left flex w-[40%] justify-center items-center py-4">
-            <ul class="flex  justify-between hover:bg-green-400 w-[70%] ">
+  <header class="container mx-auto lg:px-6 w-full">
+    <div class="top w-full py-5  flex  justify-between items-center">
+        <div class="left flex w-[30%] justify-start items-center py-4">
+            <ul class="flex  justify-between hover:bg-green-400 w-[100%] ">
                 <li>
                     <a href="#">Get the App</a>
                 </li>
@@ -29,11 +29,11 @@
                 </li>
             </ul>
         </div>
-        <div class="right flex w-1/2 justify-end">
-            <ul class="flex  w-[80%] justify-end">
+        <div class="right flex w-[70%] justify-end items-center">
+            <ul class="flex  w-full justify-between">
                 <li><i class="fa-solid fa-clock"></i>Mon - Sun: 7am - 8pm</li>
                 <li><i class="fa-solid fa-envelope"></i> customer_support@example.com</li>
-                <div class="bayraq w-[35%]">
+                <div class="bayraq w-[10%] flex">
                     
                         <img class="w-[30%]" src="./src/images/en.jpg" alt="">
                         <select name="contury" id=""></select>
@@ -41,28 +41,296 @@
                 </div>
              
                 <li>Welcome Guess!</li>
-                <li> <a href="#">Sign In</a>  or <a href="#">Register</a> </li>
+                <li> <a class="text-green-600" href="#">Sign In</a>  or <a class="text-green-600" href="#">Register</a> </li>
             </ul>
         </div>
        
     </div>
-    <div class="center flex justify-around w-[86%]">
-     <div class="left ">
+    <div class="center flex justify-around w-full">
+     <div class="left w-[20%]">
         <img src="./src/images/logosop.svg" alt="">
      </div>
-     <div class="center">
-        <div class="write">
+     <div class="center flex justify-center items-center w-[50%] border-2 p-3 rounded border-green-400">
+        <div class="write flex justify-between items-center  w-[25%]">
            <a href="#">All category</a>
            <select name="" id=""></select>
+          
+        </div>
+        
+        <div class="input flex justify-between border-l-2 w-[60%] mx-6">
+            <input class="pl-3 outline-none" type="search" placeholder="Search products">
+            
+        </div>
+        <div class="sag w-[10%] flex justify-end">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
      </div>
-     <div class="right"></div>
+     <div class="right w-[25%] flex items-center group">
+        <div class="left flex items-center mr-10 group-hover:text-green-500">
+            <i class="fa-solid fa-phone text-green-600"></i>
+            <a href="#">666 - 880 - 33388</a>
+        </div>
+        <div class="right text-xl flex justify-between w-[25%] items-center group-hover:text-green-500">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+            
+            <sup>0</sup>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <sup>0</sup>
+        </div>
+     </div>
          
     </div>
-    <div class="bottom"></div>
+    <div class="bottom border-t-2 my-5 py-4 flex">
+        <div class="left w-[20%] flex justify-between border-r-2 group relative">
+            <div class="top-15 left-0 absolute opacity-0 invisible flex justify-center bg-white w-full h-80 group-hover:visible group-hover:opacity-100 duration-150">
+                    <ul class="flex justify-center flex-col gap-y-3">
+                        <li>
+                            <i class="fa-solid fa-laptop"></i>
+                            <a href="#">Electronics</a>
+                        </li>
+                        <li>
+                            <a href="#"> Beauty & Health  </a>
+                        </li>
+                        <li>
+                            <a href="#">Toys & Kids <span>HOT</span> </a>
+                        </li>
+                       
+                        <li>
+                            <a href="#">Clothing & Fashion</a>
+                        </li>
+                        <li>
+                            <a href="#">Home Appliances</a>
+                        </li>
+                        <li>
+                            <a href="#"> Travel & Outdoor</a>
+                        </li>
+                        <li>
+                            <a href="#"> Furniture NEW</a>
+                        </li>
+                        <li>
+                            <a href="#"> Automotive</a>
+                        </li>
+                        <li>
+                            <a href="#"> Pet Supplies</a>
+                        </li>
+                        <li>
+                            <a href="#"> Daily Deals</a>
+                        </li>
+                        <li>
+                            <a href="#">View All </a>
+                        </li>
+                    </ul>
+            </div>
+            <i class="fa-solid fa-bars text-green-600 "></i>
+            <span>SHOP BY CATEGORY</span>
+            <select name="" id=""></select>
+        </div>
+        <div class="center w-[50%] flex justify-between">
+            <ul class="flex justify-between">
+                <li>
+                    <a href="#">Home</a>
+                    <select name="" id=""></select>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                    <select name="" id=""></select>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                    <select name="" id=""></select>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                    <select name="" id=""></select>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <select name="" id=""></select>
+                </li>
+                <li>
+                    <a href="#">Hot Deals</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right w-[30%] flex items-center">
+            <i class="fa-solid fa-gift text-green-600"></i>
+            <span class="text-red-400">$15 off your first order. </span>
+            <span>Limited time offer.</span>
+        </div>
+    </div>
   </header>
-  <section class="w-60 h-60 bg-[url('../images/h1-bg1.jpg')]">
- 
+  <section class="w-full bg-[url('../images/h1-bg1.jpg')] flex justify-center py-[50px]">
+  <div class="w-[95%] flex justify-between">
+    <div class="left w-[65%] h-[500px] pt-[100px] pb-[80px] px-14 bg-[url('../images/meyvesekil.jpg')] flex justify-between rounded">
+        <div class="title flex flex-col text-white justify-center  w-[60%]">
+            <a class="text-xs mb-8 font-medium" href="#">FRESH & 100% ORGANIC</a>
+            <a class="text-3xl mb-6" href="#">Get clean, seasonal produce</a>
+            <a class="text-5xl font-semibold mb-6" href="#">Flat 15% off on fruit juice products </a> 
+            <div class="shop w-[30%] mt-7 flex items-center ">
+                <a class="text-xl font-semibold text-black bg-white p-3 rounded" href="#">Shop now <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+             
+        </div>
+    </div>
+    <div class="right w-[30%] ">
+        <div class="top h-[235px] bg-[url('../images/h1-banner2.jpg')] flex flex-col  justify-center w-full p-6 rounded ">
+            <div class="title flex flex-col text-white justify-center  w-1/2 pl-8">
+                <a class="text-xs mb-8 font-medium text-orange-400" href="#">SAVE UP TO 30%  </a>
+                <a class="text-2xl mb-6 text-green-700 " href="#">Best healthy product <br>  of the month  </a>
+                <a class="text-xl font-semibold text-black" href="#">Shop now <i class="fa-solid fa-arrow-right"></i> </a> 
+            </div>
+        </div>
+        <div class="bottom h-[235px] bg-[url('../images/h1-banner3.jpg')] bg-l33 flex   justify-end w-full p-6 rounded mt-8">
+            <div class="title flex flex-col text-white justify-center w-2/5">
+                <a class="text-xs mb-8 text-white" href="#">WEEKEND DISCOUNT  </a>
+                <a class="text-2xl mb-6 text-white " href="#">Special Sale 50% Off </a>
+                    
+                <a class="text-xl font-semibold text-black" href="#">Shop now <i class="fa-solid fa-arrow-right"></i> </a> 
+            </div>
+        </div>
+    </div>
+  </div>
+  </section>
+  <section class="py-10 w-full justify-center items-center flex flex-col">
+    <div class="top flex w-full items-center ">
+        <h1 class="mr-6 text-3xl">Featured Categories</h1>
+        <a href="#">  View All Categories <i class="fa-solid fa-arrow-right"></i></a>  
+    </div>
+    <div class="bottom w-[90%] flex justify-between">
+        <div class="organic flex flex-col items-center w-[15%]">
+            <img  src="./src/images/organic.png" alt="">
+            <a href="#">Organic Friut</a>
+            <a href="#"> <span class="text-green-500">22</span> product</a>
+        </div>
+        <div class="vegtables flex flex-col items-center  w-[15%]">
+            <img  src="./src/images/vegtables.png" alt="">
+            <a href="#">Vegtables</a>
+            <a href="#"> <span class="text-green-500">6</span> product</a>
+        </div>
+        <div class="fres flex flex-col items-center  w-[15%]">
+            <img  src="./src/images/fres.png" alt="">
+            <a href="#">Fres Herb</a>
+            <a href="#"> <span class="text-green-500">22</span> product</a>
+        </div>
+        <div class="spices flex flex-col items-center  w-[15%]">
+            <img  src="./src/images/spices.png" alt="">
+            <a href="#">Spices</a>
+            <a href="#"> <span class="text-green-500">18</span> product</a>
+        </div>
+        <div class="meat flex flex-col items-center w-[15%]">
+            <img  src="./src/images/meat.png" alt="">
+            <a href="#">Meat</a>
+            <a href="#"> <span class="text-green-500">0</span> product</a>
+        </div>
+        <div class="groceries flex flex-col items-center w-[15%]">
+            <img  src="./src/images/groceries.png" alt="">
+            <a href="#">Groceries</a>
+            <a href="#"> <span class="text-green-500">22</span> product</a>
+        </div>
+    </div>
+    
+  </section>
+  <section class="w-full bg-[url('../images/h1-bg1.jpg')]  py-[50px]">
+    <div class="center flex justify-end w-[98%]">
+        <div class="left w-[25%] h-[500px] bg-[url('../images/h1-banner4.png')] flex flex-col flex-wrap items-center justify-center">
+            <div class="title flex flex-col text-white justify-center items-center w-full pl-8">
+                <a class="text-xs mb-8 font-medium " href="#"> HOT THIS MONTH</a>
+                <a class="text-5xl mb-6 text-white " href="#">Save an extra <br>  <span class="text-orange-500">$15 per order</span> </a>
+                <a class="text-xl font-semibold bg-orange-400 text-white p-3 rounded" href="#">Shop now <i class="fa-solid fa-arrow-right"></i> </a> 
+            </div>
+        </div>
+        <div class="right bg-white w-[70%] ">
+            <div class="top flex w-full items-center ml-10">
+                <h1 class="mr-6 text-3xl font-semibold">Deal Of The Day</h1>
+                <a class="text-xs" href="#">  Shop All<i class="fa-solid fa-arrow-right"></i></a>  
+            </div>
+            <div class="bottom w-[90%] flex justify-between ml-10">
+                <div class="organic flex flex-col  w-[23%]">
+                    <img  src="./src/images/product.jpg" alt="">
+                    <a href="#">FRES HERB</a>
+                    <a href="#"> Heavy Duty Copper Table</a>
+                    <div class="div flex  items-center">
+                        <a class="text-red-500 text-2xl" href="#">$252.</a>
+                        <a class="line-through " href="#">$325.24</a>
+                    </div>
+                </div>
+                <div class="vegtables flex flex-col   w-[23%]">
+                    <img  src="./src/images/product_2.jpg" alt="">
+                    <a href="#">FRES HERB</a>
+                    <a href="#"> Heavy Duty Copper Table</a>
+                    <div class="div flex items-center ">
+                        <a class="text-red-500 text-2xl" href="#">$252.</a>
+                        <a class="line-through " href="#">$325.24</a>
+                    </div>
+                </div>
+                <div class="fres flex flex-col   w-[23%]">
+                    <img  src="./src/images/product_3.jpg" alt="">
+                    <a href="#">FRES HERB</a>
+                    <a href="#"> Heavy Duty Copper Table</a>
+                    <div class="div flex  items-center">
+                        <a class="text-red-500 text-2xl" href="#">$252.</a>
+                        <a class="line-through " href="#">$325.24</a>
+                    </div>
+                </div>
+                <div class="fres flex flex-col   w-[23%]">
+                    <img  src="./src/images/product_4.jpg" alt="">
+                    <a href="#">FRES HERB</a>
+                    <a href="#"> Heavy Duty Copper Table</a>
+                    <div class="div flex  items-center">
+                        <a class="text-red-500 text-2xl" href="#">$252.</a>
+                        <a class="line-through " href="#">$325.24</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+        <div class="top flex w-full items-center ">
+            <h1 class="mr-6 text-3xl font-semibold">Deal Of The Day</h1>
+            <a class="text-xs" href="#">  Shop All<i class="fa-solid fa-arrow-right"></i></a>  
+        </div>
+        <div class="bottom w-[90%] flex justify-between">
+            <div class="organic flex flex-col  w-[23%]">
+                <img  src="./src/images/product.jpg" alt="">
+                <a href="#">FRES HERB</a>
+                <a href="#"> Heavy Duty Copper Table</a>
+                <div class="div flex  items-center">
+                    <a class="text-red-500 text-2xl" href="#">$252.</a>
+                    <a class="line-through " href="#">$325.24</a>
+                </div>
+            </div>
+            <div class="vegtables flex flex-col   w-[23%]">
+                <img  src="./src/images/product_2.jpg" alt="">
+                <a href="#">FRES HERB</a>
+                <a href="#"> Heavy Duty Copper Table</a>
+                <div class="div flex items-center ">
+                    <a class="text-red-500 text-2xl" href="#">$252.</a>
+                    <a class="line-through " href="#">$325.24</a>
+                </div>
+            </div>
+            <div class="fres flex flex-col   w-[23%]">
+                <img  src="./src/images/product_3.jpg" alt="">
+                <a href="#">FRES HERB</a>
+                <a href="#"> Heavy Duty Copper Table</a>
+                <div class="div flex  items-center">
+                    <a class="text-red-500 text-2xl" href="#">$252.</a>
+                    <a class="line-through " href="#">$325.24</a>
+                </div>
+            </div>
+            <div class="fres flex flex-col   w-[23%]">
+                <img  src="./src/images/product_4.jpg" alt="">
+                <a href="#">FRES HERB</a>
+                <a href="#"> Heavy Duty Copper Table</a>
+                <div class="div flex  items-center">
+                    <a class="text-red-500 text-2xl" href="#">$252.</a>
+                    <a class="line-through " href="#">$325.24</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
   </section>
 </body>
 
